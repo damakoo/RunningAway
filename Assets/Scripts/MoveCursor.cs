@@ -16,35 +16,35 @@ public class MoveCursor : MonoBehaviour
     {
         if(Input.GetKey (KeyCode.RightArrow))
         {
-            this.transform.position = this.transform.position + new Vector3 (0.02f,0,0);
+            this.transform.position = this.transform.position + new Vector3 (0.025f,0,0);
         }
         if(Input.GetKey (KeyCode.LeftArrow))
         {
-            this.transform.position = this.transform.position + new Vector3 (-0.02f,0,0);
+            this.transform.position = this.transform.position + new Vector3 (-0.025f,0,0);
         }
         if(Input.GetKey (KeyCode.UpArrow))
         {
-            this.transform.position = this.transform.position + new Vector3 (0,0.02f,0);
+            this.transform.position = this.transform.position + new Vector3 (0,0.025f,0);
         }
         if(Input.GetKey (KeyCode.DownArrow))
         {
-            this.transform.position = this.transform.position + new Vector3 (0,-0.02f,0);
+            this.transform.position = this.transform.position + new Vector3 (0,-0.025f,0);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            this.transform.position = this.transform.position + new Vector3(0.02f, 0, 0);
+            this.transform.position = this.transform.position + new Vector3(0.025f, 0, 0);
         }
         if (Input.GetKey(KeyCode.A))
         {
-            this.transform.position = this.transform.position + new Vector3(-0.02f, 0, 0);
+            this.transform.position = this.transform.position + new Vector3(-0.025f, 0, 0);
         }
         if (Input.GetKey(KeyCode.W))
         {
-            this.transform.position = this.transform.position + new Vector3(0, 0.02f, 0);
+            this.transform.position = this.transform.position + new Vector3(0, 0.025f, 0);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            this.transform.position = this.transform.position + new Vector3(0, -0.02f, 0);
+            this.transform.position = this.transform.position + new Vector3(0, -0.025f, 0);
         }
 
         if (Input.GetKeyDown(KeyCode.Return))
