@@ -29,9 +29,9 @@ public class TargetSystem : MonoBehaviour
         Canbus.SetActive(false);
         for(int i = 0;i < NumberOfObstacle; i++)
         {
-            int theta = Random.Range(0, 359);
-            int dx = Random.Range(-1, 1);
-            int dy = Random.Range(-1, 1);
+            int theta = Random.Range(88, 92);
+            float dx = Random.Range(-1.0f, 1.0f);
+            float dy = Random.Range(-1.0f, 1.0f);
             float velocity = Random.Range(minVelocity, maxVelocity);
             GameObject cloneObject = Instantiate(Obstacle, new Vector3(10.0f, i, 0.0f), Quaternion.identity);
             MoveTarget _moveTarget = cloneObject.AddComponent<MoveTarget>();
